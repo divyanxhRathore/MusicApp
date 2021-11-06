@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyansh's web music app</title>
+
+    <!-- adding fontawesome -->
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+        crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bg" id="iconBg">
+            <img src="assets/images/theweeknd.jpg" alt="bg">
+        </div>
+        <div class="icon" id="musicIcon">
+            <img src="assets/images/theweeknd.jpg" alt="icon">
+        </div>
+        <div class="musicNameAndAuthor">
+            <h2 id="name">Blinding Lights</h2>
+            <h3 id="author">The Weeknd</h3>
+            <div class="controls">
+                <button id="backwardBtn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button id="playPause">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="forwardBtn">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <audio src="assets/songs/theweeknd.mp3"></audio>
+</body>
+<script src="./app.js"></script>
+</html>        
